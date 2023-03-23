@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+}
+.App{
+  margin: 0;
+  border: 0;
+}
+.navbar{
+  margin: 0px;
+  border: 1px solid black;
+  display: flex;
+  justify-content:end;
+  background-color: rgb(208, 164, 50);
+  height: 150px;
+}
+.userDetails{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  width: 300px;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name{
+  
+  width: fit-content;
+  font-size: 1em;
+  margin-right: 30px;
+}
+.photo{
+  border-radius: 50px;
+  border: 1px solid black;
+  margin: 15px;
+
+}
+.link{
+ 
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  width: 250px;
+  
+} 
+.home{
+  
+  color: white;
+  width: fit-content;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 20px;
+}
+.login{
+  
+  color: white;
+  width: fit-content;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 20px;
+}
+.post{
+  color: white;
+  width: fit-content;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 20px;
+  width: 120px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form{
+    display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  height: 250px;
+  width: 250px;
+  margin-left: 40vw;
+  border-radius: 20px;
+  background-color: rgb(208, 164, 50);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form{
+  padding-top: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.title{
+  font-size: 1em;
+  background-color:antiquewhite;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dscript{
+  font-size: 1em;
+  background-color: antiquewhite;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+.btn{
+  font-size: 1em;
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.btn:hover{
+  background-color: darkseagreen;
 }
